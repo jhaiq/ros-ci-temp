@@ -23,3 +23,6 @@ jobs:
         with:
           linter: ${{ matrix.linter }}
           package-name: cpp_template_pkg
+      - name: Upgrade pip
+        run: |
+          python3 -m pip install --upgrade pip
