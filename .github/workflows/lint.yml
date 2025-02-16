@@ -25,4 +25,5 @@ jobs:
           package-name: cpp_template_pkg
       - name: Upgrade pip
         run: |
-          python3 -m pip install --upgrade pip
+          sudo apt-get update
+          sudo apt-get install python3-pip --reinstall
