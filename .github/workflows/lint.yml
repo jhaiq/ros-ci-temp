@@ -18,7 +18,7 @@ jobs:
         linter: [cpplint, uncrustify, xmllint]
     steps:
       - uses: actions/checkout@v4.2.2
-      - uses: ros-tooling/setup-ros@0.7.10
+      - uses: ros-tooling/setup-ros@0.7.12
 
       # Set up a Python virtual environment
       - name: Set up Python virtual environment
